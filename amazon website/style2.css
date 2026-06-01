@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.logo{
+    height:50px;
+    width:100px;
+    background-image:url("download.png");
+    background-size:cover;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+
+.add1{
+    font-size:0.8rem;
+    color:#ccc;
+}
+
+.add2{
+    font-size:1rem;
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+
+.navsearch{
+    display:flex;
+    height:40px;
+    width:50%;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+.searchselect{
+    width:60px;
+    border:none;
+    background:#f3f3f3;
+}
+
+.searchinput{
+    width:100%;
+    border:none;
+    padding:5px;
+}
+
+.searchicon{
+    width:50px;
+    background:orange;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.nav2{
+    height:40px;
+    background:#222f2d;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+}
+
+.diva1 p{
+    display:inline;
+    margin-left:15px;
+}
+
+.diva1 p:hover{
+    color : rgb(171, 171, 235);
+}
+
+.diva2:hover{
+    color : rgb(171, 171, 235);
+}
+
+.herosection{
+    background-image:url("hero-img.jpg");
+    height:450px;
+    background-size:cover;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.heroa1{
+    background:white;
+    width:90%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+
+.shopping{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background:#e2e7e6;
+    padding:10px;
+}
+
+.box{
+    width:22%;
+    background:white;
+    padding:15px;
+    margin-top:10px;
+}
+
+.boximg{
+    height:250px;
+    background-size:cover;
+    margin:10px 0;
+}
+
+
+.backtotop{
+    background:#2d889f;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.footer1{
+    background:#232f3e;
+    color:white;
+    padding:40px;
+}
+
+.footinfo{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.foot2info{
+    background:#232f3e;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    border-top:1px solid white;
+}
+
+.footlogo{
+    width:120px;
+    height:60px;
+    background-image:url("download.png");
+    background-size:cover;
+}
+
+.seperatefoot{
+    display:flex;
+    gap:20px;
+    margin-left:30px;
+}
+
+.langfoot,.money,.usfoot{
+    border:1px solid white;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    color:white;
+    
+}
+
+.langfoot {
+    width : fit-content;
+   
+}
+
+.langfoot select{
+    background-color: #0f1111;
+    color:white;
+    
+}
+
+.lastfooter{
+    background:#131a22;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
